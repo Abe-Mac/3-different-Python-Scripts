@@ -1,0 +1,27 @@
+# Script 1: Simple User Profile Generator
+
+print("=== User Profile Generator ===")
+
+# Create a fake user profile using variables
+first_name = "Alice"
+last_name = "Johnson"
+age = 28
+height_m = 1.70
+is_student = False
+
+# Combine variables into meaningful output
+full_name = first_name + " " + last_name
+
+# Display user information
+print("\n--- Profile Information ---")
+print("Full Name:", full_name)
+print("Age:", age, "years")
+print("Height:", height_m, "m")
+print("Student:", is_student)
+
+# Check and display data types
+print("\n--- Data Types ---")
+print("Type of full_name:", type(full_name))
+print("Type of age:", type(age))
+print("Type of height_m:", type(height_m))
+print("Type of is_student:", type(is_student))
