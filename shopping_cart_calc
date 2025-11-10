@@ -1,0 +1,30 @@
+# Script 2: Shopping Cart Calculator
+
+print("=== Shopping Cart Calculator ===")
+
+# Prices of items (in USD)
+apple_price = 0.99
+bread_price = 2.50
+milk_price = 1.75
+
+# Quantities purchased
+apples = 3
+bread = 2
+milk = 1
+
+# Calculate totals
+total_cost = (apple_price * apples) + (bread_price * bread) + (milk_price * milk)
+
+# Apply tax (5%)
+tax = total_cost * 0.05
+final_cost = total_cost + tax
+
+# Print out a receipt
+print("\n--- Receipt ---")
+print("Apples:", apples, "x $", apple_price)
+print("Bread:", bread, "x $", bread_price)
+print("Milk:", milk, "x $", milk_price)
+print("----------------")
+print("Subtotal: $", round(total_cost, 2))
+print("Tax (5%): $", round(tax, 2))
+print("Total: $", round(final_cost, 2))
